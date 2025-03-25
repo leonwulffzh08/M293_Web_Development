@@ -1,0 +1,247 @@
+header {
+    position: relative;
+    background-color: red;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+  }
+  
+  header img {
+    position: absolute;
+    left: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 250px;
+    height: 150px;
+  }
+  header h1 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 3px;
+    font-size: 2.5rem;
+    margin: 0;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #d7d7d7;
+    align-items: center;
+    justify-content: center;
+  }
+
+  main {
+    font-family: 'Orbitron', sans-serif;
+  }
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: 'Orbitron', sans-serif;
+}
+
+nav ul li {
+    display: inline;
+    margin: 5px;
+    position: relative;
+    transition: transform 0.3s ease-in-out;
+}
+nav ul li:hover {
+    transform: scale(1.05);
+}
+nav ul li a {
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 3px;
+}
+nav ul li a:hover {
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+}
+
+nav ul li ul.dropdown li {    
+    margin-top: 25px;
+    display: block;
+}
+nav ul li ul.dropdown {
+    width: 100%;
+    position: absolute;
+    display: none;
+}
+nav ul li:hover ul.dropdown {
+    display: block;
+}
+footer {
+    background-color: #222;
+    color: #eee;
+    padding: 2rem 1rem;
+    text-align: center;
+    font-size: 0.95rem;
+    margin-top: 10px;
+  }
+  
+  .footer-container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .footer-container a {
+    color: #aaa;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.2s ease;
+  }
+  
+  .footer-container a:hover {
+    color: #fff;
+  }
+  
+  .social-media,
+  .legal-links {
+    margin-bottom: 1rem;
+  }
+  
+  .disclaimer {
+    font-size: 0.8rem;
+    color: #777;
+    margin-top: 1rem;
+  }
+  
+  footer p {
+    margin: 0.3rem 0;
+    color: #666;
+  }
+
+  nav a.active {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  
+
+  main.kontakt-page {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .kontakt-formular form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .kontakt-formular label {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  .kontakt-formular input,
+  .kontakt-formular select,
+  .kontakt-formular textarea {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .kontakt-formular button {
+    margin-top: 1.5rem;
+    padding: 0.75rem;
+    background-color: #0055aa;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .kontakt-formular button:hover {
+    background-color: #003f7f;
+  }
+  .HomePic img {
+    width: 80%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 8px;
+}
+.HomePic img:hover {
+    transform: scale(1.01);
+}
+.Section{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.HomePic {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.HomePic h1 {
+    margin-bottom: 10px;
+    font-size: 4rem;
+}
+
+
+  
+  .intro {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 3rem;
+  }
+  
+  .kategorien-teaser h3 {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .kategorien-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1.5rem;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .kategorie-box {
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  .kategorie-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+  }
+  
+  .kategorie-box h4 {
+    margin-top: 1rem;
+  }
+  
+  .kategorie-box .btn {
+    display: inline-block;
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem;
+    background: #c00000; 
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+  }
+  
+  .kategorie-box .btn:hover {
+    background: #900000;
+  }
+
+  .intro .HomePic .nameKindBike {
+    font-size: 3rem;
+  }
+  
+  
