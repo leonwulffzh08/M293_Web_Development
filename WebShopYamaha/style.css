@@ -217,8 +217,8 @@ footer {
   }
   
   .kategorie-box img {
-    width: 100%;
-    height: auto;
+    width: 90%;
+    height: 250px;
     border-radius: 6px;
   }
   
@@ -235,6 +235,7 @@ footer {
     border-radius: 4px;
     text-decoration: none;
   }
+
   
   .kategorie-box .btn:hover {
     background: #900000;
