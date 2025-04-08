@@ -54,6 +54,7 @@ nav ul li {
 
 nav ul li:hover {
     transform: scale(1.05);
+    text-decoration: underline;
 }
 
 nav ul li a {
@@ -68,6 +69,7 @@ nav ul li a {
 nav ul li a:hover {
     color: rgb(0, 0, 0);
     background-color: #ffffff;
+    text-decoration: underline;
 }
 
 nav ul li ul.dropdown li {    
@@ -83,6 +85,7 @@ nav ul li ul.dropdown {
 
 nav ul li:hover ul.dropdown {
     display: block;
+    text-decoration: underline;
 }
 footer {
     background-color: #222;
@@ -107,6 +110,7 @@ footer {
   
   .footer-container a:hover {
     color: #fff;
+    text-decoration: underline;
   }
   
   .social-bike,
@@ -171,6 +175,7 @@ footer {
   
   .kontakt-formular button:hover {
     background-color: #003f7f;
+    text-decoration: underline;
   }
   .HomePic img {
     width: 80%;
@@ -254,6 +259,7 @@ footer {
     text-decoration: none;
     width: 50%;
     justify-self: center;
+    transition: transform 0.3s ease-in-out;
   }
 
   .buybtn {
@@ -266,17 +272,23 @@ footer {
     text-decoration: none;
     width: 25%;
     justify-self: center;
+    transition: transform 0.3s ease-in-out;
   }
   
   .buybtn:hover {
     background: #900000;
+    text-decoration: underline;
+    transform: scale(1.1);
   }
   
   .kategorie-box .btn:hover {
     background: #900000;
+    text-decoration: underline;
   }
   .btn:hover {
     background: #07006c;
+    text-decoration: underline;
+    transform: scale(1.05);
   }
 
   .intro .HomePic .nameKindBike {
@@ -357,3 +369,75 @@ footer {
       transform: translateX(0);
   }
 }
+
+.detail-seite {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.produkt-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.bild-box img {
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  flex: 1 1 300px;
+}
+
+.info-box {
+  flex: 1 1 500px;
+}
+
+.kurzbeschreibung {
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.datenbereich h3,
+.datenbereich h4,
+.highlights h3 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #c00000;
+}
+
+.info-box ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 1rem;
+}
+
+.info-box li {
+  margin-bottom: 0.4rem;
+  line-height: 1.5;
+}
+
+.preis {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #c00000;
+  margin-top: 2rem;
+}
+
+.btn-zurueck {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.6rem 1.2rem;
+  background-color: #222;
+  color: #fff;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.btn-zurueck:hover {
+  background-color: #000;
+}
+
